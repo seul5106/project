@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.content5{
+    height:547px;
+
+}
+/* store */
+.store{
+    width:600px;
+    height:427px;
+
+}
+.store-title{
+    padding-top:95px;
+    padding-bottom:50px;
+    width:100%;
+    height:22px;
+    text-indent: -10000px;
+}
+.store-title img{
+    display: block;
+
+    width: 87px;
+    height: 14px;
+}
+.store_box{
+    width: 100%;
+    height: 260px;
+}
+
+
+/* order */
+
+.order{
+    width:600px;
+    height:427px;
+  
+}
+.order-title{
+    padding-top:95px;
+    padding-bottom:50px;
+    width:100%;
+    height:22px;
+}
+.order-title img{
+    display: block;
+
+    width: 244px;
+    height: 14px;
+}

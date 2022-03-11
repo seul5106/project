@@ -1,0 +1,335 @@
+/* 
+@Filename: style_editor_pic.css
+@Author: 김다미
+@Description:  style_editor_pic 부분 css
+*/
+
+.editor_pic {
+    position: relative;
+    margin-top: 22px;
+    overflow: hidden;
+}
+.editor_pic .wrap_slide {
+overflow: visible;
+width: 960px;
+height: 520px;
+}
+.wrap_slide {
+overflow: hidden;
+position: relative;
+margin: 0 auto;
+}
+.wrap_slide .list_slide {
+top: 0;
+}
+.wrap_slide .list_slide li {
+float: left;
+}
+.wrap_pic {
+overflow: hidden;
+width: 960px;
+}
+.PC_DISCOVER_BRUNCHBOOK .item_pic_type1 {
+position: relative;
+background-image: linear-gradient(-180deg,#f4f4f4 0,#dedede 82%);
+background-image: -moz-linear-gradient(-180deg,#f4f4f4 0,#dedede 82%);
+}
+.PC_DISCOVER_BRUNCHBOOK .item_pic_type1 {
+width: 50%;
+height: 520px;
+}
+.wrap_pic .item_pic {
+position: relative;
+float: left;
+}
+.wrap_pic .item_pic .link_item {
+display: block;
+overflow: hidden;
+width: 100%;
+height: 100%;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .item_pic_type2 {
+width: 50%;
+height: 260px;
+}
+
+.wrap_pic .item_pic {
+position: relative;
+float: left;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .item_pic_type3 {
+width: 50%;
+height: 260px;
+}
+
+.wrap_pic .img_pic {
+width: 100%;
+height: 100%;
+-webkit-transition: -webkit-transform .3s ease-in-out;
+transition: transform .3s ease-in-out;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .link_item .fade_cover1 {
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 0;
+background-color: rgba(0,0,0,0);
+-webkit-transition: -webkit-opacity .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+
+.book_cover {
+display: block;
+position: absolute;
+top: 95px;
+left: 50%;
+z-index: 5;
+width: 230px;
+height: 324px;
+margin-left: -115px;
+padding: 68px 0 0;
+border-radius: 2px 6px 6px 2px;
+background-color: #ddd;
+background-position: 50% 50%;
+background-size: cover;
+box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+box-sizing: border-box;
+}
+
+.book_cover .cont_cover {
+position: relative;
+z-index: 1;
+margin: 0 50px;
+width: 130px;
+height: 172px;
+background-color: #fff;
+}
+
+.book_cover .tit_cover {
+display: block;
+display: -webkit-box;
+overflow: hidden;
+max-height: 92px;
+padding: 10px 13px 0 10px;
+font-weight: 400;
+font-family: "Nanum Myeongjo",sans-serif;
+font-size: 18px;
+line-height: 24px;
+word-break: keep-all;
+text-overflow: ellipsis;
+-webkit-line-clamp: initial;
+-webkit-box-orient: vertical;
+word-wrap: break-word;
+}
+
+.book_cover .txt_writer {
+display: block;
+display: -webkit-box;
+overflow: hidden;
+position: absolute;
+bottom: 9px;
+left: 0;
+width: 100%;
+max-height: 35px;
+padding: 0 10px;
+font-family: "Nanum Myeongjo",sans-serif;
+font-size: 11px;
+line-height: 16px;
+color: #666;
+box-sizing: border-box;
+text-overflow: ellipsis;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+word-break: break-all;
+}
+
+.book_cover .dimmed_book_type1 {
+z-index: 10;
+}
+
+.dimmed_book_type1 {
+position: absolute;
+top: 0;
+left: 0;
+width: 9px;
+height: 100%;
+}
+
+.book_cover .txt_publisher {
+display: block;
+position: absolute;
+bottom: 13px;
+left: 0;
+z-index: 1;
+width: 100%;
+font-size: 11px;
+line-height: 18px;
+font-family: "SF Pro Bold","Malgun Gothic";
+letter-spacing: .2px;
+color: #fff;
+text-align: center;
+}
+
+.book_cover .dimmed_cover {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 2px 6px 6px 0;
+background-color: rgba(0,0,0,.1);
+}
+
+.PC_DISCOVER_BRUNCHBOOK .info_release {
+display: table;
+position: absolute;
+bottom: 0;
+z-index: 2;
+width: 100%;
+height: 109px;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .inner-info {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .info_release .txt_g {
+display: block;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .info_release .txt_g+.txt_g {
+letter-spacing: -.1px;
+color: #959595;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .append_info {
+display: table;
+height: 100%;
+}
+
+.PC_DISCOVER_B2 .append_info {
+display: table;
+height: 100%;
+}
+
+.wrap_pic .append_info {
+position: absolute;
+top: 0;
+left: 50%;
+width: 100%;
+margin-left: -50%;
+color: #fff;
+text-align: center;
+z-index: 2;
+}
+
+.info_g {
+display: inline-block;
+vertical-align: middle;
+}
+
+.wrap_pic .cate_pic {
+display: inline;
+border-bottom: 1px solid #fff;
+font-size: 13px;
+font-family: 'Noto Sans Light',sans-serif;
+}
+
+.wrap_pic .tit_pic {
+display: block;
+padding-top: 12px;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+font-family: 'Nanum Myeongjo',sans-serif;
+letter-spacing: -.025em;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .txt_pic {
+display: none;
+}
+
+.wrap_pic .txt_pic {
+display: block;
+padding-top: 9px;
+line-height: 20px;
+font-family: 'Noto Sans Light',sans-serif;
+}
+
+.wrap_pic .info_g .info_by {
+width: 200px;
+}
+
+.info_g .info_by {
+padding-top: 30px;
+font-size: 12px;
+font-family: "Noto Sans Light",sans-serif;
+color: #fff;
+opacity: .8;
+filter: alpha(opacity=50);
+}
+
+.editor_pic .ico_by {
+background-position: -38px -130px;
+}
+
+.wrap_pic .ico_by {
+color: #fff;
+}
+
+.info_by .ico_by {
+width: 14px;
+height: 13px;
+margin-top: 3px;
+}
+
+.ico_by {
+font-family: Georgia,sans-serif;
+font-style: italic;
+color: #bfbfbf;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .align_g {
+height: 260px;
+}
+
+.align_g {
+display: inline-block;
+overflow: hidden;
+height: 100%;
+vertical-align: middle;
+}
+
+.wrap_pic .item_pic .mask {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #333;
+opacity: .4;
+filter: alpha(opacity=40);
+-webkit-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+}
+
+.PC_DISCOVER_BRUNCHBOOK .item_pic_type3 {
+width: 50%;
+height: 260px;
+}
+
+.wrap_pic .cate_pic {
+display: inline;
+border-bottom: 1px solid #fff;
+font-size: 13px;
+font-family: 'Noto Sans Light',sans-serif;
+}

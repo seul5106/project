@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* 브라우저 전체 넓이 및 높이 설정 */
+.container{
+    height: 4800px;
+    font-size: 13px;
+
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 1.5;
+    letter-spacing: -.05em;
+
+    position: relative;
+}
+
+/* 최소 넓이 */
+.max-width{
+    width:1200px;
+}
+
+/* 좌로 정렬 */
+.pull-left{
+    float: left;
+}
+
+/* 우로 정렬 */
+.pull-right{
+    float: right;
+}
+
+/* 마감제 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    float: none;
+}
+
+/* 마진 오토 */
+.div-center{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+/* 베스킨라빈스의 헤더입니다. */
+.header {
+  width: 100%;
+  height: 185px;
+  /* background-color: aquamarine; */
+  border-top: 3px solid rgb(255, 124, 152);
+  border-bottom: 2px solid black;
+  background-image: url(../img/bg/bg_header.gif);
+}
+
+/* 맨위 안쪽 헤더입니다 */
+.inner_header {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+
+  margin: 0 auto;
+}
+/*  로고를 포함한 부분입니다 */
+.top {
+  height: 115px;
+  /* background-color: aqua; */
+  padding-top: 22px;
+  position: relative;
+}
+/* sns부분입니다 */
+.sns {
+  width: 225px;
+  height: 35px;
+  position: absolute;
+  top: 50px;
+  /* background-color: bisque; */
+}
+
+.sns ul {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.sns li {
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+  /* background-color: bisque; */
+}
+
+.sns a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  /* background-color: aquamarine; */
+}
+
+/* 로고 부분입니다 */
+.logo {
+  width: 92px;
+  height: 92px;
+  margin: 0 auto;
+  /* background-color: blue; */
+}
+
+/* 고객센터 부분입니다 */
+.contact {
+  width: 225px;
+  height: 35px;
+  position: absolute;
+  top: 44px;
+  right: 0;
+  /* background-color: rgb(0, 0, 0); */
+  text-align: center;
+}
+
+.contact ul {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+}
+.contact ul li {
+  width: 54px;
+  height: 54px;
+  padding-left: 21px;
+  /* background-color: rgb(0, 255, 34); */
+}
+.span1 {
+  display: block;
+  font-size: 11px;
+  margin-top: 20px;
+  color: #483834;
+}
+
+.span2 {
+  display: block;
+  font-size: 11px;
+  margin-top: 20px;
+  width: 55px;
+  color: #483834;
+}
+
+/* 로그인을 포함한 메뉴부분입니다*/
+.top_menu {
+  height: 48px;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(227, 217, 214);
+}
+.top_menu_inner {
+  height: 48px;
+  /* background-color: aliceblue; */
+}
+
+.members {
+  width: 222px;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.members ul {
+  width: 134px;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.login {
+  width: 58px;
+  height: 48px;
+  /* background-color: rgb(0, 0, 0); */
+}
+.login a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.login span {
+  display: block;
+  width: 38px;
+  height: 48px;
+
+  background-image: url(../img/gnb_menu.png);
+  background-position: 0px -2px;
+}
+.join {
+  width: 73px;
+  height: 48px;
+  /* background-color: rgb(138, 50, 50); */
+}
+
+.join a {
+  display: block;
+  width: 27px;
+  height: 48px;
+
+  color: #6c6c6c;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.join span {
+  display: block;
+  /* background-color: aliceblue; */
+  width: 27px;
+  height: 48px;
+
+  background-image: url(../img/gnb_menu.png);
+  background-position: -97px -2px;
+}
+
+/* menu부분부터 오른쪽으로 쭉! */
+.gnb {
+  width: 978px;
+  height: 48px;
+  /* background-color: #483834; */
+}
+.gnb_menu {
+  width: 978px;
+  height: 48px;
+}
+
+.gnb_wrap {
+  width: 223px;
+  height: 48px;
+  /* background-color: aliceblue; */
+}
+.gnb_wrap a {
+  display: block;
+  width: 164px;
+  height: 48px;
+  padding-right: 59px;
+}
+
+.gnb_wrap span {
+  display: block;
+  width: 223px;
+  height: 48px;
+  background-image: url(../img/gnb_menu.png);
+  background-position: -131px -2px;
+  text-indent: -10000px;
+}
+
+.gnb_main {
+  width: 160px;
+  height: 48px;
+  /* background-color: blueviolet; */
+}
+
+.gnb_main a {
+  width: 42px;
+  height: 48px;
+  padding-left: 59px;
+  padding-right: 59px;
+  /* background-color: blue; */
+}
+.gnb_main span {
+  display: block;
+  width: 42px;
+  height: 100%;
+  text-indent: -10000px;
+  background-image: url(../img/gnb_menu.png);
+  background-position: -415px -2px;
+}
+
+/* 영양 성분 및 알레르기 */
+.gnb_nutrition a {
+  display: block;
+  width: 105px;
+  height: 48px;
+  padding-left: 27.5px;
+  padding-right: 27.5px;
+}
+
+.gnb_nutrition span {
+  display: block;
+  width: 105px;
+  height: 48px;
+  background-image: url(../img/gnb_menu.png);
+  background-position: -545px -2px;
+}
+/* EVENT */
+
+.gnb_event a {
+  display: block;
+  width: 42px;
+  height: 48px;
+  padding: 0px 59px;
+}
+
+.gnb_event span {
+  display: block;
+  width: 42px;
+  height: 48px;
+  background-image: url(../img/gnb_menu.png);
+  background-position: -737px -2px;
+}
+
+/* Store */
+.gnb_store {
+  width: 167px;
+  height: 48px;
+}
+.gnb_store a {
+  width: 49px;
+  height: 48px;
+  padding: 0px 59px;
+  /* background-color: #886b64; */
+}
+
+.gnb_store span {
+  display: block;
+  width: 49px;
+  height: 48px;
+  background-image: url(../img/gnb_menu.png);
+  background-position: -895px -1px;
+}
+
+/* ABOUT */
+.gnb_about {
+  width: 108px;
+  height: 48px;
+  /* background-color: aqua; */
+}
+.gnb_about a {
+  width: 49px;
+  height: 48px;
+  padding: 0px 0px 0px 59px;
+  /* background-color: rgb(163, 165, 165); */
+}
+
+.gnb_about span {
+  display: block;
+  width: 49px;
+  height: 48px;
+  background-image: url(../img/gnb_menu.png);
+  background-position: -1056px -1px;
+}
+
+.transparent {
+  display: none;
+}
+
+/* 탭메뉴입니다 */
+.depth {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  z-index: 1000;
+  visibility: hidden;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  transition: all 0.5s;
+}
+/* 나타나게 해주는 효과 act */
+.act {
+  visibility: visible;
+  height: 274px;
+}
+
+.inner_depth {
+  width: 1200px;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: all 0.5s;
+  transition-delay: 0.5s;
+}
+/* 불투명도 트렌지션 */
+
+.img_li_1 {
+  width: 215px;
+  height: 139px;
+  padding-top: 67.5px;
+  padding-bottom: 67.5px;
+  /* background-color: #fff; */
+}
+.depth_img1 {
+  width: 195px;
+  height: 139px;
+  opacity: 0;
+  animation-delay: 0.5s;
+  transition: all 0.5s;
+}
+/* 길이 트렌지션 */
+
+.act-visual {
+  opacity: 1;
+}
+.act-height {
+  height: 139px;
+}
+
+.img_li_2 {
+  width: 208px;
+  height: 274px;
+
+  /* background-color: #fff; */
+}
+
+.depth_menu1 {
+  width: 120px;
+  height: 100%;
+  margin-left: 45px;
+  /* background-color: #9c0000; */
+}
+
+.depth_menu1 li {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+}
+.depth_menu1 li:first-child {
+  padding-top: 30px;
+}
+.depth_menu1 span {
+  color: #b89898;
+}
+.depth_menu1 span:hover {
+  color: pink;
+}
+
+.depth_menu2 {
+  width: 120px;
+  height: 100%;
+  margin-left: 35px;
+  /* background-color: #9c0000; */
+}
+
+.depth_menu2 li {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+}
+.depth_menu2 li:first-child {
+  padding-top: 30px;
+}
+.depth_menu2 span {
+  color: #b89898;
+}
+.depth_menu2 span:hover {
+  color: pink;
+}
+
+.depth_menu3 {
+  width: 120px;
+  height: 100%;
+  margin-left: 42px;
+  /* background-color: #9c0000; */
+}
+
+.depth_menu3 li {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+}
+.depth_menu3 li:first-child {
+  padding-top: 30px;
+}
+.depth_menu3 span {
+  color: #b89898;
+}
+.depth_menu3 span:hover {
+  color: pink;
+}
+
+.depth_menu4 {
+  width: 120px;
+  height: 100%;
+  margin-left: 42px;
+  /* background-color: #9c0000; */
+}
+
+.depth_menu4 li {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+}
+.depth_menu4 li:first-child {
+  padding-top: 30px;
+}
+.depth_menu4 span {
+  color: #b89898;
+}
+.depth_menu4 span:hover {
+  color: pink;
+}
+
+.depth_menu5 {
+  width: 120px;
+  height: 100%;
+  margin-left: 10px;
+  /* background-color: #9c0000; */
+}
+
+.depth_menu5 li {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 12px;
+  position: relative;
+  left: 40px;
+}
+.depth_menu5 li:first-child {
+  padding-top: 30px;
+}
+.depth_menu5 span {
+  color: #b89898;
+}
+.depth_menu5 span:hover {
+  color: pink;
+}

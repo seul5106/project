@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+.content6{
+    height:1024px;
+    /* background-color: aquamarine; */
+    padding-bottom: 100px;
+}
+
+/* sns 제목입니다 */
+.sns_title{
+    width:100%;
+    height: 22px;
+    padding-bottom: 26px;
+}
+
+.sns_title img{
+    display: block;
+}
+
+
+/* sns list 입니다 */
+.snss{
+    display: block;
+    height:62px;
+    width:400px;
+    padding-bottom: 35px;
+    /* background-color: rgb(21, 78, 59); */
+}
+.snss ul {
+    width: 400px;
+    height: 62px;
+    /* background-color: black; */
+}
+.snss li {
+    width: 62px;
+    height: 62px;
+    padding: 0px 9px;
+    /* background-color: aliceblue; */
+}
+.snss img{
+    width: 62px;
+    height: 62px;
+}
+
+
+/* instagram title입니다 */
+.baskin-instagram{
+    width: 100%;
+    height: 0px;
+    padding: 26px 0px 60px 0px;
+}
+.baskin-instagram:before{
+    position: relative;
+    top: 6px;
+    left: 0px;
+    display: block;
+    text-align: center;
+    content: "";
+    width: 1200px;
+    height: 1px;
+    background: #dcd7d1;
+    margin: auto;
+    z-index: 0;
+}
+.baskin-instagram img{
+    position: relative;
+    display: block;
+    width:298px;
+    height:13px;
+    z-index: 1;
+}
+.instagram_content{
+    width: 100%;
+    height:784px;
+    /* background-color: black; */
+}
+.inner_instagram_content{
+    width: 100%;
+    height:724.5px;
+    /* background-color: antiquewhite; */
+}
+.real_content{
+    width:237px;
+    height:238.5px;
+    padding: 1.5px;
+    /* background-color: rgb(66, 128, 182); */
+}
+.real_content a{
+    display: block;
+    /* background-color: antiquewhite; */
+    box-shadow: inset 0px -10px 30px black;
+    transition: all 1s;
+    
+}
+
+
+
+/* 사진입니다 */
+.picture1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/229724894_565955617867410_1657707946840350560_n.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.picture2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/227876094_352508759597582_6579421695504754782_n.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/232277473_662412618490764_7164402382652440813_n.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture4{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/232543480_3697664680335097_3715077637215020801_n.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture5{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT1by-Ylprm_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture6{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CSqXophJz_2_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture7{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT1oIA9lFCi_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture8{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT1uY5HpkHy_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}.picture9{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT1Z67MPv6n_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture10{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT2FppmhLmK_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture11{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT3RBuEvy37_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture12{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CT4ZpihFR1u_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture13{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CUB4_KEFWAX_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture14{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CUCdMygFFBD_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture15{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/admin/CUE6lHJPZ79_carousel_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.picture_x{
+    width: 0%;
+}
+.picture_y{
+    height: 0%
+}
+
+/* .inner_picture{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px -10px 30px black;
+    float: left;
+} */
+
+/* 숨겨진 사진들입니다 */
+.inner_picture{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px -10px 30px black;
+}
+.inner1{
+    background-image: url(../img/admin/CUJgLTmPoXF_image.jpg);
+}
+
+.inner2{
+    background-image: url(../img/admin/CUE6lHJPZ79_carousel_01.jpg);
+}
+.inner3{
+    background-image: url(../img/admin/CUCdMygFFBD_carousel_01.jpg);
+}
+.inner4{
+    background-image: url(../img/admin/CUB4_KEFWAX_carousel_01.jpg);
+}
+.inner5{
+    background-image: url(../img/admin/CT4ZpihFR1u_image.jpg);
+}
+.inner6{
+    background-image: url(../img/admin/CT3RBuEvy37_carousel_01.jpg);
+}
+.inner7{
+    background-image: url(../img/admin/CT2FppmhLmK_carousel_01.jpg);
+}
+.inner8{
+    background-image: url(../img/admin/CT1Z67MPv6n_carousel_01.jpg);
+}
+.inner9{
+    background-image: url(../img/admin/CT1uY5HpkHy_carousel_01.jpg);
+}
+.inner10{
+    background-image: url(../img/admin/CT1pb55Frxe_carousel_01.jpg);
+}
+.inner11{
+    background-image: url(../img/admin/CT1oIA9lFCi_carousel_01.jpg);
+}
+.inner12{
+    background-image: url(../img/admin/CT1by-Ylprm_carousel_01.jpg);
+}
+.inner13{
+    background-image: url(../img/admin/CSqXophJz_2_carousel_01.jpg);
+}
+.inner14{
+    background-image: url(../img/admin/232543480_3697664680335097_3715077637215020801_n.jpg);
+}
+.inner15{
+    background-image: url(../img/admin/232277473_662412618490764_7164402382652440813_n.jpg);
+}
+

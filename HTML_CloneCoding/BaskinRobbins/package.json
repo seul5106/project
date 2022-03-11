@@ -1,0 +1,14 @@
+{
+  "name": "baskinrobbins",
+  "version": "1.0.0",
+  "description": "baskinrobbinsClone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "choi_jin (choij2494@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^7.3.0"
+  }
+}

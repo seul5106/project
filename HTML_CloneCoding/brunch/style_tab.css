@@ -1,0 +1,190 @@
+/* 
+@Filename: style_tab.css
+@Author: 김다미
+@Description:  style_tab 부분 css 
+*/
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapSideMenu.open {
+  margin-left: 0;
+}
+
+#wrapSideMenu {
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  width: 260px;
+  margin-left: -261px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  position: fixed;
+  z-index: 10000;
+  height: 100%;
+  top: 0;
+  text-align: center;
+}
+
+#wrapSideMenu .logout .btn_request {
+  margin-left: 0;
+  vertical-align: baseline;
+  width: 120px;
+}
+
+#wrapSideMenu .btn_request {
+  width: 80px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #00c3bd;
+  font-size: 13px;
+  color: #00c3bd;
+  margin-top: 13px;
+  margin-left: 4px;
+  background-color: #fff;
+}
+
+#wrapSideMenu main {
+  clear: both;
+}
+
+#wrapSideMenu #btnCloseSideMenu {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+#wrapSideMenu .ico_close {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background-position: -40px 0;
+}
+
+#wrapSideMenu .img_side_menu {
+  background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/ico_view_sidebar.png);
+}
+
+#wrapSideMenu .wrap_side_profile {
+  overflow: hidden;
+  position: relative;
+  height: 239px;
+  background-color: #f6f6f6;
+}
+
+#wrapSideMenu .wrap_side_profile.logout .logo_service {
+  background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/logo_service2_v1.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  margin: 40px auto 9px;
+  background-position: -1px -26px;
+}
+
+#wrapSideMenu .wrap_side_profile.logout .slogan {
+  font-family: Georgia;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.35;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+#wrapSideMenu .wrap_side_profile.logout .slogan_writer {
+  font-family: Georgia;
+  font-size: 10px;
+  font-style: italic;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #959595;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#wrapSideMenu .wrap_side_service_menu {
+  border-top: 1px solid #ddd;
+  padding-top: 28px;
+  height: 427px;
+  overflow-y: auto;
+}
+
+#wrapSideMenu .wrap_side_service_menu li {
+  height: 13px;
+  line-height: 13px;
+  padding: 12.5px 0;
+  width: 240px;
+  margin: 0 auto;
+}
+
+#wrapSideMenu .wrap_side_setting.wrap_find_user {
+  margin-bottom: 37px;
+}
+
+#wrapSideMenu .wrap_side_setting {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0 30px;
+}
+.menu_side_banner .link_xproject_award {
+  display: block;
+  position: relative;
+  width: 173px;
+  height: 33px;
+  margin: 0 auto 33px;
+  text-align: left;
+}
+
+.menu_side_banner .link_xproject_award .txt_g {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #888;
+}
+
+.wrap_side_setting .find_user {
+  font-size: 13px;
+  color: #959595;
+  border-bottom: 1px solid #bbb;
+}
+
+.menu_side_banner .link_xproject_award .tag_g {
+  display: inline-block;
+  width: 32px;
+  height: 19px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  border: 1px solid rgba(211, 211, 211, 0.7);
+  font-size: 10px;
+  line-height: 17px;
+  color: #888;
+  text-align: center;
+  vertical-align: top;
+}
+
+.menu_side_banner .link_xproject_award:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+.wrap_side_setting .find_user {
+  font-size: 13px;
+  color: #959595;
+  border-bottom: 1px solid #bbb;
+}

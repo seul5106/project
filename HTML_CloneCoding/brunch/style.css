@@ -1,0 +1,789 @@
+/* 
+@Filename: style.css
+@Author: 김다미
+@Description:  전반적인 부분 css  */
+
+/* floot */
+.f_l { float: left; }
+.f_r { float: right; }
+.clearfix:after { content: ''; display: block; clear: both; float: none; }
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Noto Sans Light',sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;	
+}
+
+button {
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img{
+    border: 0 none;
+}
+/* banner부분 */
+.link_banner{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+
+
+.wrap_banner .link_bnr_l {
+    width:100%;
+    height: 100%;
+    background-size: cover;
+    display: block;
+}
+
+.depth_banner{
+    height: 0px;
+    width: 100%;
+    transition: all 0.1s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.wrap_banner .link_banner {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; 
+    transition: all 1s;
+}
+
+.link_bnr_l .txt_banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -240px 0 0 -480px;
+    width: 960px;
+} 
+
+.link_bnr_s img {
+    transition: all 1s;
+} 
+
+.depth_banner_plus{
+    width: 100%;
+    height:480px;
+    background-size: cover;
+    background-image: url("//t1.daumcdn.net/section/oc/7863c35e5881469aa3a9ebc53391c66f");
+}
+
+
+/* 서비스 메뉴바 */
+.link_banner.link_bnr_s{
+    transition: all 1s;
+    display: block;
+    width:100%;
+    height: 60px;
+}
+
+.top_menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 20;
+}
+
+.service_header{
+    background-color: #fff;
+    width: auto;
+    height: 40px;
+    padding: 20px 10px 5px 10px;
+}
+
+.img_ico{
+    background: url(//t1.daumcdn.net/brunch/static/img/help/pc/ico_view_cover.v4.png) no-repeat;
+}
+
+.btn_menu{
+    background-position: 0 0;
+    width: 27px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.btn_search{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    background-position: -30px 0px;
+}
+
+.logo_service{
+    display: block;
+    background: url(//t1.daumcdn.net/brunch9/static/images/pc/logo_brunch_v1.png) no-repeat;
+    width: 72px;
+    height: 22px;
+    margin-top: -1px;
+    margin: 0 0 0 16px;
+}
+
+.btn_request{
+    width: 64px;
+    height: 28px;
+    /* margin-top: -5px; */
+    color: #666;
+    background-color: #fff;
+    opacity: 0.9;
+    border: 1px solid #959595;
+    border-radius: 16px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding:7px 8px;
+}
+
+/*공지사항*/
+
+
+/* ///////////////////////////////// */
+.article{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_branch{
+    text-align: left;
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    margin-top: -3px;
+    font-size: 32px;
+    line-height: 46px;
+    color: #cacaca;
+    font-family: "Nanum Myeongjo",sans-serif;
+    letter-spacing: -.05em;
+}
+
+.intro_branch h3{
+    display: inline;
+    color: #1a1a1a;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.ico_brunch{
+    background: url("//t1.daumcdn.net/brunch9/static/images/pc/ico_brunch_v8_181004_v2.png") no-repeat;
+}
+
+.ico_logo{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 1px 6px 0 5px;
+    background-position: -120px -200px;
+    vertical-align: top;
+}
+.notice{
+    height: 18px;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.ico_notice,.ico_update{
+    float: right;
+    font-size: 11px;
+    font-family: Georgia,sans-serif;
+    font-style: italic;
+    color: #00c3bd;
+    padding-top: 2px;
+}
+
+.info_notice,.info_update{
+    float: right;
+    letter-spacing: 0.01em;
+    font-family: "Noto Sans DemiLight", "Malgun Gothic";
+    padding-left: 7px;
+    color: #959595;
+}
+
+.info_notice:hover,.info_update:hover{
+    text-decoration:underline;
+}
+
+/* /////////////////////////////// */
+.editor_pic{
+    margin-top: 22px;
+    width: 100%;
+    height: 100%;
+}
+
+/* //////////////////////////////////////// */
+.keywords{
+    text-align: left;
+    height:100%;
+    margin: 0 auto;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.img_txt_branch{
+    background: url("//t1.daumcdn.net/brunch9/static/images/pc/txt_brunch_v5_181004_v2.png") no-repeat 0 0;
+}
+
+.img_txt_keyword{
+    margin: 0 auto;
+    width: 266px;
+    height: 13px;
+    background-position: -101px -300px;
+}
+
+.img_txt_keyword_sub{
+    display: inline-block;
+    margin: 20px auto;
+    width: 149px;
+    height: 11px;
+    background-position: -175px 0;
+}
+
+
+/* keyword 버튼 부븐*/
+.keywords .keyword_list_wrap {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.keywords .keyword_list {
+    width: 960px;
+    margin: 46px auto 0;
+    position: relative;
+}
+
+.keywords .keyword_item {
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    text-align: center;
+    border: 1px solid #eee;
+    z-index: 1;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    color : #333;
+}
+
+.keywords .keyword_item .keyword_item_txt {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.keyword_item .ico_brunch {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    right: 12px;
+    background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/img_weekly.v2.png);
+    background-position: -77px -80px;
+}
+
+.keywords .keyword_item:hover {
+    color:#00c3bd;
+    border-color: #00c3bd;
+    z-index: 2;
+}
+
+/* 작가 부분*/
+.brunch_w{
+    width: 100%;
+    height:100%;
+    padding-bottom: 150px;
+    background-color: #FAFAFA;  
+    position: relative;
+}
+
+.brunch_writers{
+    text-align: left;
+    width: 960px;
+    height:100%;
+    margin: 50px auto 85px;
+    padding-top: 150px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.img_txt_writers{
+    margin: 0 auto;
+    width: 258px;
+    height: 13px;
+    background-position: 0 -175px;
+}
+
+.img_txt_writers_sub{
+    display: inline-block;
+    margin: 0 auto;
+    width: 84px;
+    height: 11px;
+    margin-top: 15px;
+    background-position: -270px -70px;
+}
+
+.writer_keyword_wrap{
+    margin-top: 43px;
+    text-align: center;
+    font-size:12px;
+}
+
+.keyword_item.on {
+    color: #00C6BD;
+    border-color: #00C6BD;
+}
+
+.keyword_item {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 2px;
+    padding: 7px 16px 6px;
+    border: 1px solid #EEE;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: "Noto Sans Light","Malgun Gothic";
+    color: #959595;
+}
+
+.wrap_writers{
+    font-size :12px;
+}
+.brunch_writers .link_writers {
+    display: block;
+    min-height: 288px;
+    padding: 46px 40px;
+    background: #fff;
+    text-decoration: none;
+    
+}
+
+.list_writers_group {
+    margin-top: 40px;
+}
+
+.brunch_writers .list_writers li {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.brunch_writers .keyword_inside_wrap {
+    position: absolute;
+    width: 100%;
+    bottom: 46px;
+    padding-top: 40px;
+}
+
+.brunch_writers .thumb_img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.thumb_img {
+    display: block;
+    position: relative;
+}
+
+.brunch_writers .tit_wirter {
+    display: block;
+    max-height: 57px;
+    padding: 17px 12px 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nanum Myeongjo',sans-serif;
+    line-height: 28px;
+    letter-spacing: -.02em;
+    white-space: normal;
+    word-break: keep-all;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.brunch_writers .team_writer {
+    display: block;
+    overflow: hidden;
+    margin-top: 4px;
+    font-weight: 300;
+    font-family: 'Noto Sans Light',sans-serif;
+    color: #666;
+    letter-spacing: -.02em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.brunch_writers .txt_wirter {
+    display: block;
+    height: 60px;
+    margin-top: 16px;
+    padding: 0;
+    font-weight: 300;
+    line-height: 20px;
+    color: #959595;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.brunch_writers .keyword_inside_wrap .keyword_item {
+    padding: 4px 10px;
+    border-color: #ddd;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Noto Sans Light",sans-serif;
+    letter-spacing: -1px;
+}
+
+/*이미지 삽입*/
+.link_application {
+    display: block;
+    width: 960px;
+    margin: 97px auto 0;
+}
+
+/*글소개*/
+.recommend_articles {
+    position: relative;
+}
+
+.img_txt_recommend{
+    margin: 0 auto;
+    width: 380px;
+    height: 13px;
+    margin-top: 152px;
+    background-position: 0 -225px;
+}
+
+.img_txt_recommend_sub{
+    display: inline-block;
+    margin: 10px auto 47px;
+    width: 162px;
+    height: 11px;
+    background-position: 0 -75px;
+}
+
+.wrap_slide .list_slide .link_slide {
+    display: block;
+    text-decoration: none;
+}
+
+.wrap_side_service_menu li {
+    height: 13px;
+    line-height: 13px;
+    padding: 12.5px 0;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.wrap_side_service_menu li.now_page a {
+    color: #00c3bd;
+}
+
+.wrap_side_service_menu li::hover {
+    color: #00c3bd;
+}
+/*recommend*/
+.recommend_articles {
+    position: relative;
+}
+
+.recommend_articles .wrap_slide {
+    overflow: hidden;
+    height:100%;
+}
+
+.recommend_articles .list_slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.recommend_articles .list_slide li {
+    display: inline-block;
+    width: 240px;
+    height: 600px;
+    padding: 0 10px;
+    font-family: 'Noto Sans Light',sans-serif;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.recommend_articles .list_slide {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.wrap_slide .list_slide .link_slide {
+    display: block;
+    text-decoration: none;
+}
+
+.recommend_articles .img_articles {
+    max-height: 320px;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.recommend_articles .tit_subject {
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -.025em;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.recommend_articles .desc_subject {
+    display: block;
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    word-break: break-all;
+    font-family: 'Noto Sans Light',sans-serif;
+    letter-spacing: -.025em;
+    color: #959595;
+    text-align: justify;
+}
+
+.recommend_articles .info_by {
+    padding-top: 22px;
+    color: #959595;
+}
+
+.info_by {
+    display: block;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cont_brunch .btn_next .ico_brunch {
+    float: left;
+    background-position: -269px -175px;
+}
+
+.cont_brunch .wrap_btn .ico_brunch {
+    width: 100px;
+    height: 101px;
+}
+
+.cont_brunch .wrap_btn .btn_brunch {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+}
+
+.cont_brunch .btn_next {
+    right: 30px;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+    color: #222;
+}
+
+/** footer*/
+
+.foot_brunch {
+    display: block;
+    width: 100%;
+    height: 353px;
+    background: #101010;
+    margin: 0;
+}
+
+.foot_brunch .inner_foot {
+    padding-top: 48px;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.foot_brunch .wrap_info {
+    margin-bottom: 35px;
+}
+
+.foot_brunch .area_quotation {
+    float: left;
+    margin: 2px 190px 0 0;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: Georgia,sans-serif;
+    font-style: italic;
+}
+
+.foot_brunch .ico_brunch_logo {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 22px;
+    background-position: -320px -70px;
+}
+
+.foot_brunch .img_txt_quotation {
+    display: inline-block;
+    margin-top: 54px;
+    width: 184px;
+    height: 37px;
+    margin: 0 0 4px;
+    background-position: 0 -319px;
+}
+
+.foot_brunch .txt_by {
+    text-align: left;
+    display: block;
+    font-size: 11px;
+    font-style: italic;
+    opacity: .8;
+    color:#bfbfbf;
+    font-weight: lighter;
+}
+
+.foot_brunch .list_policy {
+    width: 464px;
+    padding: 0;
+}
+
+.foot_brunch .list_info {
+    float: left;
+    margin: 0 auto;
+}
+
+.foot_brunch .list_info .link_info {
+    padding: 0;
+    font-weight: 300;
+    font-size: 13px;
+    color: #D9D9D9;
+    letter-spacing: -.02em;
+}
+
+.foot_brunch .list_policy li {
+    float: left;
+    width: 232px;
+    margin-bottom: 17px;
+    line-height: 17px;
+}
+
+.foot_brunch .list_sns {
+    float: right;
+    margin-top: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.foot_brunch .list_sns li {
+    float: none;
+    margin-bottom: 17px;
+    line-height: 15px;
+}
+
+
+.foot_brunch .wrap_corp {
+    padding-top: 23px;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.foot_brunch .txt_copyright .link_corp {
+    font-style: italic;
+    font-family: Georgia,sans-serif;
+    color: #fff;
+    opacity: .5;
+    font-size: 11px;
+}
+
+.foot_brunch .txt_copyright {
+    float: left;
+    margin: 2px 0 0 -1px;
+}
+
+.foot_brunch .list_download {
+    float: right;
+    margin-right: 5px;
+}
+
+.foot_brunch .list_download li {
+    float: left;
+    margin-left: 25px;
+}
+
+.foot_brunch .ico_android {
+    display: inline-block;
+    width: 20px;
+    height: 22px;
+    background-position: -260px -100px;
+}
+
+.foot_brunch .ico_ios {
+    display: inline-block;
+    width: 18px;
+    height: 22px;
+    background-position: -290px -100px;
+}
+
+
+main{
+    width:260px;
+    display: block;
+    height:100%;
+}
+.wrapSideMenu{
+    position: relative;
+}
+.depth_sidebar{
+    position: absolute;
+    display: none;
+    top: 0;
+    left:240px;
+    width: 0;
+    height: 100%;
+    transition: all 1s;
+    opacity: 1;
+}
+
+.depth_sidebar_display{
+    display:block;
+    width: 1800px;
+    cursor: pointer;
+}

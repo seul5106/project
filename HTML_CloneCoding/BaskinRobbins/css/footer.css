@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* 푸터 태그입니다. */
+.footer {
+  width: 100%;
+  height: 330px;
+  padding-bottom: 60px;
+  background-color: white;
+  border-top: 1px solid rgb(254, 175, 43);
+}
+/* 푸터 안 태그입니다. */
+.inner_footer {
+  width: 100%;
+  height: 330px;
+  /* background-color: rgb(48, 48, 119); */
+}
+/* 개인정보처리방침을 감싸고 있는 태그입니다 */
+.policy {
+  width: 1060px;
+  height: 77px;
+  /* background-color: aqua; */
+  padding: 0px 70px;
+}
+/* 개인정보처리방침 리스트 태그입니다 */
+.policy li {
+  display: block;
+  width: 12%;
+  line-height: 77px;
+  color: #726454;
+  font-size: 14px;
+  text-align: center;
+}
+.policy li:nth-last-child(3) a {
+  color: rgb(255, 124, 152);
+}
+
+/* 브랜드패밀리를 감싸고 있는 태그입니다 */
+.brandfamily {
+  width: 100%;
+  height: 75px;
+    background-color: rgb(249, 248, 247);
+}
+
+.inner_brnadfamily {
+  height: 100%;
+  /* background-color: #726454; */
+}
+.brand {
+  width: 100%;
+  height: 54px;
+  /* background-color: aliceblue; */
+}
+
+.brandfamily_ul {
+  width: 630px;
+  height: 32px;
+  padding-left: 222px;
+  padding-top: 22px;
+  /* background-color: black; */
+}
+.brandfamily_list1 {
+  width: 111px;
+  height: 32px;
+}
+
+.brandfamily_list1 a {
+  display: block;
+  width: 111px;
+  height: 32px;
+  /* background-color: cornflowerblue; */
+}
+
+.brandfamily_list1 a img {
+  width: 62px;
+  height: 32px;
+}
+
+.brandfamily_list2 {
+  width: 118px;
+  height: 32px;
+}
+
+.brandfamily_list2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+}
+.brandfamily_list2 a img {
+  width: 65px;
+  height: 32px;
+}
+
+.brandfamily_list3 {
+  width: 182px;
+  height: 32px;
+}
+
+.brandfamily_list3 a {
+  width: 182px;
+  height: 32px;
+}
+
+.brandfamily_list3 a img {
+  width: 131px;
+  height: 32px;
+}
+
+.brandfamily_list4{
+    width: 55px;
+    height: 32px;
+    padding-right: 9px;
+}
+.brandfamily_list4 a {
+    width: 40px;
+    height: 32px;
+}
+.brandfamily_list4 a img {
+    width: 55px;
+    height: 32px;
+}
+
+.brandfamily_list5{
+    width: 42px;
+    height: 32px;
+    padding-right: 9px;
+}
+
+.brandfamily_list5 a {
+    width: 42px;
+    height: 32px;
+}
+.brandfamily_list5 a img {
+    width: 42px;
+    height: 32px;
+}
+
+.brandfamily_list6{
+    width: 29px;
+    height: 32px;
+    margin-right: 70px;
+}
+
+.brandfamily_list6 a {
+    width: 29px;
+    height: 32px;
+}
+.brandfamily_list6 a img {
+    width: 29px;
+    height: 32px;
+}
+
+
+/* Family site option*/
+.familysite{
+    display: block;
+    width: 120px;
+    height: 25px;
+    margin-top:29px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/* info */
+.info{
+    height:128px;
+    /* background-color: #333; */
+    padding-top: 48px;
+    text-align: center;
+    
+}
+.info h1 {
+    width: 1200px;
+    height: 27px;
+    padding-bottom: 35px;
+}
+
+.info h1 img{
+    width: 128px;
+    height: 27px;
+}
+.box1{
+    width: 100%;
+    height: 19px;
+    text-align: center;
+    font-size:11px;
+    color: rgb(99,91,86);
+}
+.box1 p:first-child{
+    display: inline-block;
+    width: 150px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+}
+.box1 p:nth-child(2){
+    display: inline-block;
+    width: 150px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+}
+address{
+    display: inline-block;
+    font-style: normal;
+}
+.box2{
+    width: 100%;
+    height: 19px;
+    text-align: center;
+    font-size:11px;
+    color: rgb(99,91,86);
+
+}
+.box2 p:first-child{
+    display: inline-block;
+    width: 150px;
+    padding-bottom: 3px;
+}
+.box2 p:nth-child(2){
+    display: inline-block;
+    width: 150px;
+    padding-bottom: 9px;
+    
+}
+.box2 p:last-child{
+    color: rgb(163, 163, 163);
+}

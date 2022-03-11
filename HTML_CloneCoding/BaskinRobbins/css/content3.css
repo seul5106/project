@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.content3{
+    height: 710px;
+    /* background-color: aquamarine; */
+}
+
+.title{
+    display: block;
+    width: 100%;
+    height: 14px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    /* background-color: rgb(58, 39, 39); */
+    text-indent: -10000px;
+}
+.title img{
+    display: block;
+    width:87px;
+    height: 14px;
+}
+
+/* 배너 */
+
+.event_list{
+    width: 1216px;
+    height: 465px;
+    /* background-color: rgb(92, 180, 180); */
+    
+}
+
+.inner_event_list{
+    width:1216px;
+    height:100%;
+    /* background-color: azure; */
+    margin-left: -16px;
+}
+
+.inner_event_ul{
+    display: block;
+    width:100%;
+    height: 100%;
+    
+}
+.inner_event_li{
+    width:288px;
+    height: 465px;
+    padding-left: 16px;
+    /* background-color: rgb(66, 63, 59); */
+}
+.inner_event_li a{
+    display: block;
+    width: 288px;
+    height: 393px;
+    /* background-color: blue; */
+}
+.inner_event_li figure{
+    width: 288px;
+    height: 288px;
+}
+.banner_logo{
+    width: 286px;
+    height: 286px;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+}
+
+.type{
+    display: block;
+    width: 258px;
+    height: 22px;
+    margin-top:22px;
+    margin-bottom:8px;
+    /* background-color: antiquewhite; */
+}
+
+.banner_logo_sub{
+    width: 114px;
+    height: 22px;
+}
+
+.banner_title{
+    font-size:17px;
+    letter-spacing:-2px;
+    color: rgb(47, 35, 58)
+}
+.periode{
+    display: block;
+    width:288px;
+    height:19px;
+    margin: 10px 0px;
+    /* background-color: aqua; */
+    color: rgb(148, 135, 128);
+
+}
+
+.pagination{
+    height:19px;
+    background-color: antiquewhite;
+}

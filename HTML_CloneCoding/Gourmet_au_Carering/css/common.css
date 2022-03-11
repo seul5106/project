@@ -1,0 +1,23 @@
+html,body{
+    font-family: initial;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+a{
+    color: #222222;
+    text-decoration: none;
+}
+
+#clear{
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}

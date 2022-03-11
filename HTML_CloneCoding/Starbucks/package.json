@@ -1,0 +1,28 @@
+{
+  "name": "starbucks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^7.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "starbucks_cloneCoding"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/seul5106/SemiFinalCloneCoding.git"
+  },
+  "keywords": [
+    "file"
+  ],
+  "author": "Han_Seul_Jeong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seul5106/SemiFinalCloneCoding/issues"
+  },
+  "homepage": "https://github.com/seul5106/SemiFinalCloneCoding#readme"
+}

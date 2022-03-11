@@ -1,0 +1,41 @@
+a{
+    color: #222222;
+    text-decoration: none;
+}
+
+.clear{
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+
+#content{
+    width: 1000px; 
+    position:relative;
+    left:50%; 
+    margin-left:-500px; 
+  
+}
+
+#article{
+    width: 1000px; 
+    position:relative;
+    left:50%; 
+    margin-left:-500px; 
+    
+}
+#footer{
+    width: 1000px; 
+    position:relative;
+    left:50%; 
+    margin-left:-500px; 
+}
+#pagenum{
+    width: 1000px; 
+    position:relative;
+    left:50%; 
+    margin-left:-500px; 
+  
+}
+
