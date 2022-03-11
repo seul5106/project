@@ -15,6 +15,6 @@
 .top_picture {
     display: block;
     height: 150px;
-    background-image: url(/BaskinRobbins/img/content1.jpg);
+    background-image: url(../img/content1.jpg);
     background-position: center center;
 }

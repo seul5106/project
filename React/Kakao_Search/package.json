@@ -2,7 +2,7 @@
   "name": "13-kakao-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/project/React/Kakao_Search/build",
+  "homepage": "https://seul5106.github.io/project/React/Kakao_Search/build",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.14.1",
