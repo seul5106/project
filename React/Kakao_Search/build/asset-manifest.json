@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project/React/static/css/main.b7b0a7ff.css",
-    "main.js": "/project/React/static/js/main.25136c76.js",
-    "static/js/787.9f3d4f03.chunk.js": "/project/React/static/js/787.9f3d4f03.chunk.js",
-    "index.html": "/project/React/index.html",
-    "main.b7b0a7ff.css.map": "/project/React/static/css/main.b7b0a7ff.css.map",
-    "main.25136c76.js.map": "/project/React/static/js/main.25136c76.js.map",
-    "787.9f3d4f03.chunk.js.map": "/project/React/static/js/787.9f3d4f03.chunk.js.map"
+    "main.css": "/project/React/Kakao_Search/build/static/css/main.b7b0a7ff.css",
+    "main.js": "/project/React/Kakao_Search/build/static/js/main.2ca5cf6c.js",
+    "static/js/787.9f3d4f03.chunk.js": "/project/React/Kakao_Search/build/static/js/787.9f3d4f03.chunk.js",
+    "index.html": "/project/React/Kakao_Search/build/index.html",
+    "main.b7b0a7ff.css.map": "/project/React/Kakao_Search/build/static/css/main.b7b0a7ff.css.map",
+    "main.2ca5cf6c.js.map": "/project/React/Kakao_Search/build/static/js/main.2ca5cf6c.js.map",
+    "787.9f3d4f03.chunk.js.map": "/project/React/Kakao_Search/build/static/js/787.9f3d4f03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7b0a7ff.css",
-    "static/js/main.25136c76.js"
+    "static/js/main.2ca5cf6c.js"
   ]
 }
