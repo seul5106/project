@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*상단 > Home 버튼*/
+#hearder span{
+    display:none;
+}
+
+/*내용영역*/
+#content{
+    width: auto;
+    background: url(../img/bg_body.gif) repeat-x;
+}
+
+/*내용영역 > 서브타이틀*/
+#content h2{
+    margin-top: 0;
+    width: auto;
+    height: 270px;
+    background: url(../img/bg_visual.jpg) center top no-repeat;
+    text-indent: -10000px;
+}
+
+/*내용영역 > 버튼메뉴 박스*/
+#content nav{
+    text-align: center;
+}
+
+
+/*내용영역 > 버튼메뉴 박스 > 개별항목 > 링크*/
+#content nav .normalLink{
+    display: inline-block;
+    width: 65px;
+    height: 90px;
+    margin: 20px 5px 0 2px;
+    text-indent: -10000px;
+    overflow: hidden;
+    background: url(../img/lnb.png) no-repeat;
+    cursor: pointer;
+}
+
+
+/*내용영역 > 버튼메뉴 박스 > 개별항목 > 개별링크의 배경이미지 좌표*/
+#content nav .normalLink#icon1{
+    background-position: 0px 0;
+}
+#content nav .normalLink#icon2{
+    background-position: -66px 0;
+}
+#content nav .normalLink#icon3{
+    background-position: -136px 0;
+}
+#content nav .normalLink#icon4{
+    background-position: -206px 0;
+}

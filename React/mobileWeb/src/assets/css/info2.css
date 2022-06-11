@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*본문영역*/
+.content{
+    width: 300px;
+    margin: auto;
+    font-size: 0.8em;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+/*본문영역 > 소제목*/
+.content h2{
+    height: 90px;
+    background: url(../img/top_ca1.jpg) no-repeat;
+    margin-top: 15px;
+    text-indent: -10000px;
+}
+
+
+/*본문영역 갤러리*/
+.content nav .imgLink{
+    width: 33.3%;
+    float: left;
+}
+
+.content nav:after{
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+
+.content nav .imgLink img{
+    display: block;
+    box-sizing: border-box;
+    width: auto;
+    padding: 5px;
+}
+
+.content nav .imgLink img{
+    box-sizing: border-box;
+    width: 100%;
+}

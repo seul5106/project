@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*탭영역 > 버튼셋*/
+.tab{
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    background: url(../img/bg_tab.gif) repeat-x;
+}
+
+
+/*탭영역 > Float 해제*/
+nav.tab:after{
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+
+/*탭영역 > 버튼셋 > 개별항목 > 링크*/
+nav.tab > div{
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+}
+
+nav.tab > div > .tabLink{
+    display: block;
+    width: auto;
+    height: 23px;
+    padding-top: 17px;
+    color: #fff;
+}
+
+/*탭영역 > 버튼셋 > 개별항목 > 활성화 메뉴*/
+nav.tab > div.active{
+    background: url(../img/bg_tab_left.gif) left 10px no-repeat;
+}
+
+/*탭영역 > 버튼셋 > 개별항목 > 활성화 메뉴 > 링크*/
+nav.tab > div.active > .tabLink{
+    background: url(../img/bg_tab_right.gif) right 10px no-repeat;
+    color: #000;
+}
